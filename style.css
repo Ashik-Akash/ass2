@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Poppins';
+    margin: 0px;
+}
+
+.main-body {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.header-area {
+    width: 100%;
+    height: 740px;
+    background-color: #161616;
+    margin: 67px 0 0 0;
+    border-radius: 50px;
+}
+
+.main-coontent {
+    display: flex;
+}
+
+.content-heading h1 {
+    font-size: 4em;
+    color: white;
+    margin-left: 140px;
+    margin-top: 141px;
+}
+
+.player-info {
+    font-size: 20px;
+    color: white;
+    margin-left: 140px;
+}
+
+.live-show {
+    margin-top: 55px;
+}
+
+
+.live-show a {
+    margin-left: 140px;
+    text-decoration: none;
+    color: white;
+    padding: 26px 74px;
+    background-color: #DD0000;
+    border-radius: 7px;
+}
+
+
+
+.images img {
+    height: 740px;
+    margin-left: 28px;
+}
+
+
+
+/*----------  blog sections styles --------- */
+
+
+
+.main-content {
+    display: flex;
+    margin-top: 145px;
+}
+
+.side-bar {
+    width: 25%;
+}
+
+.main-bar {
+
+    background-color: black;
+    padding: 20px 0 20px;
+    border-radius: 18px;
+
+}
+
+.sidebar-name1 {
+    margin-left: 15px;
+    padding: 92px;
+}
+
+.main-blog {
+    width: 75%
+}
+
+.sidebar-item {
+    text-align: center;
+    background: #fff;
+    margin: 33px;
+    padding: 29px;
+    border-radius: 10px;
+}
+
+
+.sidebar-item a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+
+#blog {
+    background-color: red;
+}
+
+#blog a {
+    color: white;
+}
+
+/* blog area styles */
+
+
+.container-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.blog-area {
+    margin: 0px 20px 20px 20px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    padding: 0 0px 35px 0px;
+    border-radius: 10px;
+}
+
+
+.images1 img {
+    width: 343px;
+
+}
+
+.blogarea-devision {
+    margin-left: 20px;
+}
+
+.blog-name {}
+
+.blog-name h3 {
+    border: 1px solid #161616;
+    width: 132px;
+    height: 32px;
+    text-align: center;
+    margin-top: 25px;
+
+    padding-top: 11px;
+    font-weight: 600;
+}
+
+.blog-info {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.icon-area {
+    font-size: 22px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.fa-comment-dots {
+    margin-left: 47px;
+}
+
+/*----------- footer area style---------- */
+.main-footer {
+    background-color: #161616;
+    margin-top: 100px;
+    height: 500px;
+
+}
+
+.footer-heading {
+    text-align: center;
+    color: white;
+    padding-top: 145px;
+    font-size: x-large;
+}
+
+.footer-heading h1 {}
+
+hr {
+    width: 1586px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-info {
+    text-align: center;
+    padding-top: 53px;
+}
+
+.footer-info a {
+    color: #B9B9B9;
+    text-decoration: none;
+    margin-left: 59px;
+}
+
+
+/*---------------- new page style --------------------- */
+.content-card {
+
+    margin: 0px 0px 50px 60px;
+    box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
+
+}
+
+.container-blog1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.main-picture {
+    display: flex;
+    padding-top: 56px;
+
+}
+
+.picture1 {}
+
+.picture1 img {
+    width: 108px;
+    margin-left: 25px;
+}
+
+.picture2 {
+    margin-left: 47px;
+}
+
+.picture2 img {
+    width: 108px;
+}
+
+.blogarea-devision1 {
+    text-align: center;
+}
+
+.blog-name1 {
+    font-size: 22px;
+}
+
+.blog-info1 {
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
